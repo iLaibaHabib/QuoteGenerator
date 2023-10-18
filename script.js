@@ -11,6 +11,6 @@ async function getquote(url){
 }
 getquote(api_url);
 function tweet(){
-    window.open(href="https://twitter.com/intent/tweet?text=" + quote.innerHTML + "%0A-" 
+    window.open(href="https://twitter.com/intent/tweet?text=" + quote.innerHTML + "%0A - " 
     + author.innerHTML, "Tweet Window", "width=500, height=300");
 }
